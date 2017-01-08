@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度</title>
+
+    <script >
+
+        alert("my frist JavaScript");
+
+        function show(params){
+            alert(params);
+        }
+
+
+        function inputDiv(){
+
+            var data = zhao.getData();
+            document.getElementById("div").innerText = data;
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <img src="pic.jpg" width="100%" height="30%">
+    <br/>
+    <hr/>
+
+    <input type="button" onclick="show('Hello World!!')" value="弹出Alert"/>
+    <br/>
+    <input type="button" onclick="window.zhao.showToast('html_toast')" value="调用android代码！"/>
+    <br/>
+
+    <input type="button" onclick="inputDiv()" value="获取手机信息！"/>
+    <br/>
+
+
+    手机的信息: <br/>
+    <div id="div"></div>
+    <br/>
+
+    <a  href="http://www.baidu.com">百度一下</a>
+    <br/>
+
+</body>
+</html>
